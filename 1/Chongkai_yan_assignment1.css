@@ -1,0 +1,43 @@
+#p1 table {
+    width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#p1 .ans .SN {
+    color: red;
+}
+
+#p1 #John {
+    background-color: green;
+}
+
+#p1 #Josh {
+    background-color: blue;
+}
+
+#p2 input {
+    height: 20px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1.5px solid gray;
+}
+
+#p2 div,
+#p3 div {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#p4 div {
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#p4 option {
+    background-color: black;
+    color: white;
+}
