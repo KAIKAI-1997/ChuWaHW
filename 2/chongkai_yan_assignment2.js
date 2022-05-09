@@ -21,8 +21,7 @@ function double(arr) {
 console.log(double(itemsObject));
 
 const filterArr = itemsObject.filter((ele) => {
-  if (ele.price > 300 && ele.quantity > 2) return true;
-  return false;
+  return ele.price > 300 && ele.quantity > 2;
 });
 
 console.log(filterArr);
